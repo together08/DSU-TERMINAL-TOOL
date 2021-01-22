@@ -8,4 +8,4 @@ gsi_tool enable
 
 echo "DSU 粘滞模式已启用"
 read -p "按任意键继续..." var
-bash ../main.sh
+

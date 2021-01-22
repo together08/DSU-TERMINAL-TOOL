@@ -7,4 +7,3 @@ setprop persist.sys.fflag.override.settings_dynamic_system true
 
 echo "DSU 启用完成"
 read -p "按任意键继续..." var
-bash ../main.sh

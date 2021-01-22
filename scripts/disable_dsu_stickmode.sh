@@ -10,4 +10,3 @@ gsi_tool disable
 
 echo "DSU 粘滞模式已停用"
 read -p "按任意键继续..." var
-bash ../main.sh

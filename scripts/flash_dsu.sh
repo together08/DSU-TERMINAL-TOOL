@@ -23,9 +23,8 @@ am start-activity \
 -n com.android.dynsystem/com.android.dynsystem.VerificationActivity  \
 -a android.os.image.action.START_INSTALL  \
 -d file://./system_raw.gz  \
---el KEY_SYSTEM_SIZE $(du -b system_raw.img|cut -f1)  \
+--el KEY_SYSTEM_SIZE $((`du system_raw.img | cut -f1`*1024))  \
 --el KEY_USERDATA_SIZE $userdatasize
 
 echo "DSU 启动完毕，请检查您的通知栏"
 read -p "按任意键继续..." var
-bash ../main.sh
