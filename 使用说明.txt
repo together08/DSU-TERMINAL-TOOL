@@ -7,12 +7,16 @@ Copyright 版权所有 2021 KOUMI Studio.
 本工具发布于酷安，拒绝未经授权的转发、打包，打包狗全家火葬场！
 官方QQ交流群：1051856285
 
+使用本工具需要 Root ！！！
+使用本工具需要 Root ！！！
+使用本工具需要 Root ！！！
+
 本工具适用于 Android 10 Beta 4 及以上版本
-请安装 本工具目录下的 Ansole Apk
+把此工具文件夹放入 /data 下（不然会有权限问题）
+请使用 MT 管理器下的终端模拟器打开
 然后依次执行一下命令：
-cd
+su
 bash
-cd
-接着进入本工具目录，执行：
+cd /data/DSU-TERMINAL-TOOL
 bash main.sh
-之后按提示操作即可
+之后按提示操作即可。
