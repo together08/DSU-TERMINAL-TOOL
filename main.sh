@@ -13,7 +13,7 @@ echo "本工具发布于酷安，拒绝未经授权的转发、打包，打包�
 echo "Powered by jvlong520(together08)."
 echo "Copyright 2021 KOUMI Studio."
 
-echo "1. 启用 Dynamic System Updates（安卓10/11 userdebug build 包：直接打开 设置>系统>开发者选项>功能标记>settings_dynamic_system 即可；\n其他设备须使用此条命令）"
+echo "1. 启用 Dynamic System Updates（安卓10/11 userdebug build 包：直接打开 设置>系统>开发者选项>功能标记>settings_dynamic_system 即可；其他设备须使用此条命令）"
 echo "2. 刷入 Dynamic System Updates GSI 镜像（所有 GSI 均可以使用，包括 erfan/phh 等 GSI）"
 echo "3. 启用 Dynamic System Updates 粘滞模式（多次重启直至舍弃）"
 echo "4. 停用 Dynamic System Updates 粘滞模式"
@@ -34,3 +34,4 @@ elif [ $c == 4 ]; then
 else
 	echo "指令不存在"
 	exit 
+fi
