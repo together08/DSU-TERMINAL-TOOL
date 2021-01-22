@@ -23,7 +23,7 @@ echo "正在启动 DSU.."
 am start-activity \
 -n com.android.dynsystem/com.android.dynsystem.VerificationActivity  \
 -a android.os.image.action.START_INSTALL  \
--d file://"$LOCALDIR"/system_raw.gz  \
+-d file://"$LOCALDIR"/../system_raw.gz  \
 --el KEY_SYSTEM_SIZE $((`du system_raw.img | cut -f1`*1024))  \
 --el KEY_USERDATA_SIZE $userdatasize
 
