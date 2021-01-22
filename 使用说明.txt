@@ -1,0 +1,13 @@
+DSU-TERMINAL-TOOL 说明文件
+本工具作者为 KOUMI Studio 的 jvlong520(together08)
+作者邮箱：together08@yeah.net
+作者QQ：2958537424
+ 
+Copyright 版权所有 2021 KOUMI Studio.
+本工具发布于酷安，拒绝未经授权的转发、打包，打包狗全家火葬场！
+官方QQ交流群：1051856285
+
+本工具适用于 Android 10 Beta 4 及以上版本
+请在 Termux 下进入本工具目录
+执行 bash main.sh
+之后按提示执行即可
