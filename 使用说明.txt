@@ -8,6 +8,11 @@ Copyright 版权所有 2021 KOUMI Studio.
 官方QQ交流群：1051856285
 
 本工具适用于 Android 10 Beta 4 及以上版本
-请在 Termux 下进入本工具目录
-执行 bash main.sh
-之后按提示执行即可
+请安装 本工具目录下的 Ansole Apk
+然后依次执行一下命令：
+cd
+bash
+cd
+接着进入本工具目录，执行：
+bash main.sh
+之后按提示操作即可
