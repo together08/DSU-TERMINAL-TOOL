@@ -19,6 +19,7 @@ echo "1. 启用 Dynamic System Updates（安卓10/11 userdebug build 包：直�
 echo "2. 刷入 Dynamic System Updates GSI 镜像（所有 GSI 均可以使用，包括 erfan/phh 等 GSI）"
 echo "3. 启用 Dynamic System Updates 粘滞模式（多次重启直至舍弃）"
 echo "4. 停用 Dynamic System Updates 粘滞模式"
+echo "5. 安装启动依赖（必选，第一次打开工具须执行）"
 echo "0. 退出本工具"
 
 echo ""
@@ -36,6 +37,8 @@ elif [ $c == 3 ]; then
 	bash ./scripts/enable_dsu_stickmode.sh
 elif [ $c == 4 ]; then 
 	bash ./scripts/disable_dsu_stickmode.sh
+elif [ $c == 5 ]; then
+	bash ./scripts/install_deps.sh
 else
 	echo "指令不存在"
 	exit 
