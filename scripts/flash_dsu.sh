@@ -9,7 +9,7 @@ read -p "请输入原始 GSI 文件名：" gsiname
 cp -fpr "$gsipath" .
 mv "$gsiname" "system.img"
 
-echo "正在转换并压缩 GSI..."
+echo "正在转换并压缩 GSI...（这需要一些时间，请耐心等待）"
 chmod a+x ./bin/simg2img
 ./bin/simg2img ./system.img ./system_raw.img
 gzip -c ./system_raw.img > ./system_raw.gz
